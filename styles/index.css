@@ -31,7 +31,13 @@
 
 .nav-link {
     text-decoration: none;
-}
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+    }
 
 
     /* NAV BUTTONS */
@@ -72,8 +78,8 @@
     color: white;
 }
 
-
 /* DESIGN THINKING SECTION */
+
 
 .layout-container {
     min-width: 1126px;
@@ -144,4 +150,10 @@
    max-height: 494px;
    max-width:  604px;
    display: flex;
+}
+
+/* DESIGN TOOL SECTION */
+
+.layout-container-2 {
+
 }
