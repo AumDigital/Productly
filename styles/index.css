@@ -118,6 +118,7 @@ body {
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
+    color: #2F281E;
 }
 
 .info {
@@ -128,6 +129,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    color: #544837;
 }
 
 .orange-button {
@@ -187,6 +189,7 @@ body {
     font-size: 36px;
     line-height: 54px;
     text-align: center;
+    color:  #2F281E;
 }
 
 /* Question for Michelle :) In this container-"cards" the margin bottom seems to effect the button beneath this container differently.
@@ -222,6 +225,8 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
+    color: #2F281E;
+
 
 }
 
@@ -233,6 +238,7 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    color: #544837;
 
 }
 
@@ -258,6 +264,7 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+    color:  #2F281E;
 
 }
 
@@ -270,8 +277,7 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
 
 .layout-product {
     flex-direction: row-reverse;
-   
-    
+     
 }
 
 .product-content-container {
@@ -289,7 +295,6 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
    
 }
     
-
 .checkpoint-container {
     min-width: 450px;
     min-height: 52px;
@@ -307,11 +312,70 @@ I ended up putting a 100px margin bot - to get the appropriate spacing */
 
 
 
+/* FOOTER SECTION */ 
 
+.footer-container {
 
+    max-width: 1109px;
+    max-height: 308px;
+    margin-bottom: 83px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: flex-end;
 
+}
 
+.footer-logo {
+    max-width: 185px;
+    max-height: 32px;
+    align-self: flex-start;
+}
 
+.footer-content-container {
+    min-width: 131px;
+    min-height: 205px;
+    display: flex;
+    justify-content: flex-end;
+    
 
+}
 
+.footer-item {
+    display: flex;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+
+.signup-input {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.input-field {
+    max-width: 325px;
+    max-height: 48px;
+    margin-bottom: 21px;
+
+}
+
+.footer-button {
+    min-width: 30px;
+    min-height:  39px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF9900;
+
+    
+}
 
